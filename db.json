@@ -1,0 +1,25 @@
+{
+  "user": [
+    {
+      "name": "Ahmad",
+      "address": "Kurdistan",
+      "email": "ahmad@gmail.com",
+      "contact": "75000000",
+      "id": 1
+    },
+    {
+      "name": "Hewr",
+      "address": "Kurdistan",
+      "email": "hewr@gmail.com",
+      "contact": "750312400",
+      "id": 2
+    },
+    {
+      "name": "Revan",
+      "address": "Kurdistan",
+      "email": "revan@gmail.com",
+      "contact": "750000242300",
+      "id": 3
+    }
+  ]
+}
