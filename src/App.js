@@ -1,10 +1,17 @@
 import './App.css';
-// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
+import Home from './pages/Home';
+import AddUser from './pages/AddUser';
+import EditUser from './pages/EditUser';
 
 function App() {
   return (
-    <div>
-      <h1>hii</h1>
+    <div className='App'>
+      <Switch>
+        <Route exact path='/' component={Home} />
+        <Route exact path='/addUser' component={AddUser} />
+        <Route exact path='/editUser/:id' component={EditUser} />
+      </Switch>
     </div>
   );
 }
